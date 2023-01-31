@@ -463,6 +463,9 @@ header {
 }
 
 /* <!--ourselves--> */
+.confirm{
+    padding-bottom: 50px;
+}
 
 .confirm .middle-section {
     max-width: 550px;
