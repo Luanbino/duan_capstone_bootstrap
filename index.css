@@ -52,14 +52,14 @@ p {
 
 .btn-primary {
     color: #fff ;
-    background-color: #dc4f72;
+    background-color: #dc4f72 ;
     border-color: #dc4f72;
 }
 
 .btn-primary:hover {
     color: #fff;
-    background-color: #d62f58;
-    border-color: #cf2952;
+    background-color: #d62f58 !important;
+    border-color: #cf2952 !important;
 }
 
 .btn-light:hover {
@@ -102,14 +102,14 @@ p {
 
 /* PHẦN XỬ LÝ BỐ CỤC & HIỆU ỨNG:LIGHT VÀ DARK */
 
-.lightvsdark i {
+.light_dark i {
     font-size: 26px;
     line-height: 32px;
     transform: rotate(-20deg);
 }
 
 /* dark theme */
-.dark#vipBody {
+.dark#lightjob {
     background-color: rgba(37, 36, 39);
 }
 
@@ -125,16 +125,16 @@ p {
 }
 
 /* phần gắn class cho backround chuyển về màu tối */
-.dark .headervip,
+.dark .headerjob,
 .dark .fixed-top,
 .dark .nav-fixed,
-.dark .block1 .content,
-.dark .choose,
-.dark .choose .s-block,
-.dark .choose .s-block:hover,
+.dark .carouselblock .content,
+.dark .US,
+.dark .US .usitem,
+.dark .US .usitem:hover,
 .dark .about,
 .dark .stats,
-.dark .stats .stats_info,
+.dark .stats .stats_item,
 .dark .confirm {
     background-color: rgba(37, 36, 39);
     color: #fff;
@@ -143,24 +143,24 @@ p {
 .dark h2,
 h3,
 h4,
-.dark .headervip .navbar-expand-lg .navbar-nav .nav-link,
+.dark .headerjob .navbar-expand-lg .navbar-nav .nav-link,
 .dark .header-section h3,
-.dark .about .book-info h3,
-.dark .choose .s-block h3,
-.dark .stats .stats_info h4 {
+.dark .about .book-content h3,
+.dark .US .usitem h3,
+.dark .stats .stats_item h4 {
     color: #fff;
 }
 
 
 .dark p,
-.dark .choose .s-block p,
-.dark .about .book-info p,
-.dark .about .book-info p {
+.dark .US .usitem p,
+.dark .about .book-content p,
+.dark .about .book-contentp {
     color: #c2c8cc;
 }
 
 /* light theme */
-#vipBody {
+#lightjob {
     background-color: #fff;
 }
 
@@ -173,14 +173,14 @@ h4,
     display: none;
 }
 
- .headervip .btn:first-child:active {
+ .headerjob .btn:first-child:active {
     border-color:#fff ;
   }
 
-  .dark .headervip .btn:first-child:active {
+  .dark .headerjob .btn:first-child:active {
     border-color:rgba(37, 36, 39) ;
   }
-  .headervip .lightvsdark .btn{
+  .headerjob .light_dark .btn{
     border: 0px;
   }
 /* <!--header--> */
@@ -401,14 +401,14 @@ header {
     background-color: #f7f9fc;
 }
 
-.about .book-info h3 {
+.about .book-content h3 {
     font-size: 35px;
     line-height: 40px;
-    color: #2c3038;
+    color: #2c3038 ;
     font-weight: 700;
 }
 
-.about .book-info p {
+.about .book-content p {
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -545,7 +545,7 @@ header {
     .headerjob .navbar-toggler {
         padding: 0rem 0rem;
         position: absolute;
-        right: 0;
+        right: 10%;
         top: 0;
 
     }
